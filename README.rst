@@ -32,3 +32,5 @@ Summary of fixes:
   removed, as many nuclei are not separated (could be fixed by watershed)
 - ``9bb6e39d5f4415bc7554842ee5d1280403a602f2ba56122b87f453a62d37c06e``
   removed bar mask a09ae9559f817b104e049e5bb01cf4ad1b87e3ef7fad3dcf932b6585ca3edc05
+- ``1f0008060150b5b93084ae2e4dabd160ab80a95ce8071a321b80ec4e33b58aca``
+  separated 2 pairs of nuclei
