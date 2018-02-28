@@ -34,3 +34,5 @@ Summary of fixes:
   removed bar mask a09ae9559f817b104e049e5bb01cf4ad1b87e3ef7fad3dcf932b6585ca3edc05
 - ``1f0008060150b5b93084ae2e4dabd160ab80a95ce8071a321b80ec4e33b58aca``
   separated 2 pairs of nuclei
+- ``5d21acedb3015c1208b31778561f8b1079cca7487399300390c3947f691e3974``
+  filled holes in mask 5e6e650a28e22f651817b2edeacbf93a960adf633f1dbef69ecea585ef35d544
