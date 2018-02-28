@@ -46,3 +46,5 @@ Summary of fixes:
   removed, as several nuclei not annotated (could be easily fixed)
 - ``af576e8ec3a8d0b57eb6a311299e9e4fd2047970d3dd9d6f52e54ea6a91109da``
   added 1 missing mask
+- ``1bd0f2b3000b7c7723f25335fabfcdddcdf4595dd7de1b142d52bb7a186885f0``
+  separated 2 pairs of nuclei
