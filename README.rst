@@ -13,3 +13,8 @@ https://www.kaggle.com/c/data-science-bowl-2018/discussion/47864
 Fixes are released using the same license.
 All fixes are in master, this is a drop-in replacement for the original dataset.
 Pull requests welcome!
+
+Summary of fixes:
+
+- ``7b38c9173ebe69b4c6ba7e703c0c27f39305d9b2910f46405993d2ea7a963b80``
+  - removed, as no nuclei were annotated
