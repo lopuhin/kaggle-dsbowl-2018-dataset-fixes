@@ -17,4 +17,6 @@ Pull requests welcome!
 Summary of fixes:
 
 - ``7b38c9173ebe69b4c6ba7e703c0c27f39305d9b2910f46405993d2ea7a963b80``
-  - removed, as no nuclei were annotated
+  removed, as no nuclei were annotated
+- ``12aeefb1b522b283819b12e4cfaf6b13c1264c0aadac3412b4edd2ace304cb40``
+  removed, missing ~20 clear nuclei (could be fixed)
