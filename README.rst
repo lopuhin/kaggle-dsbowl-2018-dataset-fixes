@@ -20,3 +20,5 @@ Summary of fixes:
   removed, as no nuclei were annotated
 - ``12aeefb1b522b283819b12e4cfaf6b13c1264c0aadac3412b4edd2ace304cb40``
   removed, missing ~20 clear nuclei (could be fixed)
+- ``58c593bcb98386e7fd42a1d34e291db93477624b164e83ab2afa3caa90d1d921``
+  added 1 nuclei bottom right
