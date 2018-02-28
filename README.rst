@@ -44,3 +44,5 @@ Summary of fixes:
   filled mask 56618a746e807cc8c794c06d34ade16117d6661ab5da530045e88248e3493d0e
 - ``adc315bd40d699fd4e4effbcce81cd7162851007f485d754ad3b0472f73a86df``
   removed, as several nuclei not annotated (could be easily fixed)
+- ``af576e8ec3a8d0b57eb6a311299e9e4fd2047970d3dd9d6f52e54ea6a91109da``
+  added 1 missing mask
