@@ -22,3 +22,5 @@ Summary of fixes:
   removed, missing ~20 clear nuclei (could be fixed)
 - ``58c593bcb98386e7fd42a1d34e291db93477624b164e83ab2afa3caa90d1d921``
   added 1 nuclei bottom right
+- ``a7f767ca9770b160f234780e172aeb35a50830ba10dc49c526f4712451abe1d2``
+  added 1 nuclei bottom left
