@@ -48,3 +48,5 @@ Summary of fixes:
   added 1 missing mask
 - ``1bd0f2b3000b7c7723f25335fabfcdddcdf4595dd7de1b142d52bb7a186885f0``
   separated 2 pairs of nuclei
+- ``c304a1fdf3bca2f4b4580d2cac59942e2224a7678001bf5ed9d9852f57708932``
+  removed, as many nuclei are not separated (could be fixed)
