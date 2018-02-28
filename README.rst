@@ -28,3 +28,5 @@ Summary of fixes:
   removed, as it has many out of focus nuclei not annotated (could be fixed)
 - ``b1eb0123fe2d8c825694b193efb7b923d95effac9558ee4eaf3116374c2c94fe``
   added 3 missing nuclei, removed one bad
+- ``19f0653c33982a416feed56e5d1ce6849fd83314fd19dfa1c5b23c6b66e9868a``
+  removed, as many nuclei are not separated (could be fixed by watershed)
