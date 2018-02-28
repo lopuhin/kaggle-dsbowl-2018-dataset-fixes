@@ -26,3 +26,5 @@ Summary of fixes:
   added 1 nuclei bottom left
 - ``74a7785530687a11ecd073e772f90912d9967d02407a192bfab282c35f55ab94``
   removed, as it has many out of focus nuclei not annotated (could be fixed)
+- ``b1eb0123fe2d8c825694b193efb7b923d95effac9558ee4eaf3116374c2c94fe``
+  added 3 missing nuclei, removed one bad
