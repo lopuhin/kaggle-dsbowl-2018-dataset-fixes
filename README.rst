@@ -42,3 +42,5 @@ Summary of fixes:
   separated mask 8246970b0d108736b3e8a1a45872737a30a2332dc00fce23534c86b1cbc80f73
 - ``0121d6759c5adb290c8e828fc882f37dfaf3663ec885c663859948c154a443ed``
   filled mask 56618a746e807cc8c794c06d34ade16117d6661ab5da530045e88248e3493d0e
+- ``adc315bd40d699fd4e4effbcce81cd7162851007f485d754ad3b0472f73a86df``
+  removed, as several nuclei not annotated (could be easily fixed)
