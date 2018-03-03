@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import argparse
 from pathlib import Path
 
@@ -31,14 +32,37 @@ def ensure_mask():
     parser = argparse.ArgumentParser()
     parser.add_argument('mask_paths', nargs='+')
     args = parser.parse_args()
-    for mask_path in args.mask_paths:
+    mask_paths = []
+    for mask_path in map(Path, args.mask_paths):
+        if mask_path.is_dir():
+            mask_paths.extend((mask_path / 'masks').glob('*.png'))
+        else:
+            mask_path.append(mask_path)
+    for mask_path in mask_paths:
         a = np.array(Image.open(mask_path))
+        needs_fixing = False
+        if len(a.shape) == 3:
+            needs_fixing = True
+            print(f'fixing shape (was {a.shape}) for {mask_path}')
+            a = a[:, :, :3].max(axis=2)
+        if a.dtype != np.uint8:
+            print(f'fixing dtype (was {a.dtype}) for {mask_path}')
+            needs_fixing = True
+            assert a.dtype == np.bool
+            a = a.astype(np.uint8) * 255
         assert len(a.shape) == 2
         to_fix = np.sum((a > 0) & (a < 255))
-        print(f'Fixed {to_fix} pixels in {mask_path}')
-        _save_mask(a > 80, mask_path)
+        if to_fix:
+            needs_fixing = True
+            print(f'fixed {to_fix} pixels for {mask_path}')
+        if needs_fixing:
+            _save_mask(a > 80, mask_path)
 
 
 def _save_mask(mask: np.ndarray, path: Path):
     assert mask.dtype == np.bool
     Image.fromarray(mask.astype(np.uint8) * 255).save(path)
+
+
+if __name__ == '__main__':
+    ensure_mask()
