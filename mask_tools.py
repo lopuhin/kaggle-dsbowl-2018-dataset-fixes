@@ -37,7 +37,7 @@ def ensure_mask():
         if mask_path.is_dir():
             mask_paths.extend((mask_path / 'masks').glob('*.png'))
         else:
-            mask_path.append(mask_path)
+            mask_paths.append(mask_path)
     for mask_path in mask_paths:
         a = np.array(Image.open(mask_path))
         needs_fixing = False
